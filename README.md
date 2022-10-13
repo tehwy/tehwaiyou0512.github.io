@@ -1,2 +1,2 @@
-Homepage : https://tehwy.github.io/tehwaiyou0512.github.io/index.html</br>
-Exercise1 : https://tehwy.github.io/tehwaiyou0512.github.io/week2/exercise1.html
+Homepage : https://tehwy.github.io/webdevelopment/</br>
+Exercise1 : https://tehwy.github.io/webdevelopment/week2/exercise1.html
