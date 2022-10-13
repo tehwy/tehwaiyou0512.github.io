@@ -51,31 +51,57 @@
             </div>
           </nav>
           
-          <div class="jumbotron">
+          <div class="jumbotron" style="padding: 2rem;">
             <div class="container" >
-              <h1 class="display-4">Learn to create website</h1>
-              <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
-                  Get started today
-              </button>
-              <div class="modal" id="myModal">
-                  <div class="modal-dialog">
-                    <div class="modal-content">
-                    
-                      <!-- Modal Header -->
-                      <div class="modal-header">
-                        <h4 class="modal-title">Modal Heading</h4>
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                      </div>
-                         <!-- Modal body -->
-                         <div class="modal-body" >
-                          <img src="images/background.jpg" alt="paint" class="w-100">
-                        </div>
+             <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="1" aria-label="Slide 2"></button>        </div>
+        <div class="carousel-inner my-2" style="min-height: 280px;">
+          <div class="carousel-item active px-3 py-4">
+            <p class="display-5 fw-bold">Learn To Create Websites</p>
+            <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+            <!-- Modal -->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+              Get Started Today
+            </button>
+            
+            <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel1">Modal</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <img src="images/background.jpg" alt="paint" class="w-100">
+                </div>
+              </div>
+            </div>
 
-                     
-                    </div>
-                    </div>
-                    </div>
+          </div>
+          <div class="carousel-item px-3 py-4 text-white" style="background-image: url('images/background.jpg');background-position: center;background-repeat: no-repeat;background-size: cover;">
+            <p class="display-5 fw-bold" style="color: black;">Learn To Create Websites</p>
+            <p  style="color: black;">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+            <!-- Modal -->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Get Started Today
+            </button>
+            
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel" style="color: black;">Modal</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <img src="images/background.jpg" alt="paint" class="w-100">
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        </div>
             </div>
       
           </div>
@@ -122,5 +148,7 @@
             </div>
            
           </footer>
+
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     </body>
 </html>
