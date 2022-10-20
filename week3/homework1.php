@@ -40,7 +40,7 @@
 </select>
 </div>
 
-<div class="btn- col-2">
+<div class="btn-group col-2">
 <select class="form-select bg-danger" aria-label="Default select example">
   <option selected>Year</option>
   <?php
